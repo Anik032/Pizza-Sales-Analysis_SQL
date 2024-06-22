@@ -18,29 +18,29 @@ Advanced Queries: Sophisticated queries to provide deep insights and answer chal
 
 **Questions Answered**
 Basic:
-Retrieve the total number of orders placed.
-Calculate the total revenue generated from pizza sales.
-Identify the highest-priced pizza.
-Identify the most common pizza size ordered.
-List the top 5 most ordered pizza types along with their quantities.
+* Retrieve the total number of orders placed.
+* Calculate the total revenue generated from pizza sales.
+* Identify the highest-priced pizza.
+* Identify the most common pizza size ordered.
+* List the top 5 most ordered pizza types along with their quantities.
 
 
 Intermediate:
-Join the necessary tables to find the total quantity of each pizza category ordered.
-Determine the distribution of orders by hour of the day.
-Join relevant tables to find the category-wise distribution of pizzas.
-Group the orders by date and calculate the average number of pizzas ordered per day.
-Determine the top 3 most ordered pizza types based on revenue.
+* Join the necessary tables to find the total quantity of each pizza category ordered.
+* Determine the distribution of orders by hour of the day.
+* Join relevant tables to find the category-wise distribution of pizzas.
+* Group the orders by date and calculate the average number of pizzas ordered per day.
+* Determine the top 3 most ordered pizza types based on revenue.
 
 Advanced:
-Calculate the percentage contribution of each pizza category to total revenue.
-Analyze the cumulative revenue generated over time.
-Determine the top 3 most ordered pizza types based on revenue for each pizza category.
+* Calculate the percentage contribution of each pizza category to total revenue.
+* Analyze the cumulative revenue generated over time.
+* Determine the top 3 most ordered pizza types based on revenue for each pizza category.
 
 **How to Use**
 Clone the Repository:
 Copy code
-git clone https:
+git clone https: https://github.com/Anik032/Pizza-Sales-Analysis_SQL
 Load Data: Import the CSV files into your SQL environment.
 Run Queries: Execute the SQL queries provided in the project to analyze the data and answer the questions.
 **Prerequisites**
