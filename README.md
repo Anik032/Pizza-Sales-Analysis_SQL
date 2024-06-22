@@ -10,6 +10,11 @@ pizza_types.csv: Lists different types of pizzas available.
 pizzas.csv: Includes details about pizzas, such as size and type.
 order_details.csv: Provides a breakdown of each order's details, including quantities and prices.
 
+**Data Model**
+
+![Data Model](https://github.com/Anik032/Pizza-Sales-Analysis_SQL/assets/135404517/13192d11-5497-4657-8401-a2f6cb56295d)
+
+
 **Key Features**
 Data Import and Cleaning: Load and data from CSV files to prepare for analysis.
 Basic Queries: Simple SQL queries to understand the structure and basic statistics of the data.
