@@ -22,7 +22,8 @@ Basic Queries: Simple SQL queries to understand the structure and basic statisti
 Intermediate Queries: More complex queries to explore trends and patterns in the sales data.
 Advanced Queries: Sophisticated queries to provide deep insights and answer challenging business questions.
 
-**Questions Answered**
+**Questions Answered** 
+
 Basic:
 * Retrieve the total number of orders placed.
 * Calculate the total revenue generated from pizza sales.
