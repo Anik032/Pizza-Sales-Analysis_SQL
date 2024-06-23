@@ -15,44 +15,42 @@ order_details.csv: Provides a breakdown of each order's details, including quant
 ![Data Model](https://github.com/Anik032/Pizza-Sales-Analysis_SQL/assets/135404517/13192d11-5497-4657-8401-a2f6cb56295d)
 
 
-**Key Features**
+**Key Features** <br> 
 Data Import and Cleaning: Load and data from CSV files to prepare for analysis.
 Basic Queries: Simple SQL queries to understand the structure and basic statistics of the data.
 Intermediate Queries: More complex queries to explore trends and patterns in the sales data.
 Advanced Queries: Sophisticated queries to provide deep insights and answer challenging business questions.
 
-**Questions Answered** 
-
+**Questions Answered** <br> 
 Basic:
 * Retrieve the total number of orders placed.
 * Calculate the total revenue generated from pizza sales.
 * Identify the highest-priced pizza.
 * Identify the most common pizza size ordered.
 * List the top 5 most ordered pizza types along with their quantities.
-
-
+<br> 
 Intermediate:
 * Join the necessary tables to find the total quantity of each pizza category ordered.
 * Determine the distribution of orders by hour of the day.
 * Join relevant tables to find the category-wise distribution of pizzas.
 * Group the orders by date and calculate the average number of pizzas ordered per day.
 * Determine the top 3 most ordered pizza types based on revenue.
-
+<br> 
 Advanced:
 * Calculate the percentage contribution of each pizza category to total revenue.
 * Analyze the cumulative revenue generated over time.
 * Determine the top 3 most ordered pizza types based on revenue for each pizza category.
 
-**How to Use**
+**How to Use** <br> 
 Clone the Repository:
 Copy code
 git clone https: https://github.com/Anik032/Pizza-Sales-Analysis_SQL
 Load Data: Import the CSV files into your SQL environment.
 Run Queries: Execute the SQL queries provided in the project to analyze the data and answer the questions.
 
-**Prerequisites**
+**Prerequisites** <br> 
 SQL database (e.g., MySQL, PostgreSQL, SQLite)
 Basic understanding of SQL
 
-**Contributions**
+**Contributions** <br> 
 Feel free to fork this repository, open issues, or submit pull requests to contribute to the project. Any contributions that improve the analysis or add new insights are welcome!
