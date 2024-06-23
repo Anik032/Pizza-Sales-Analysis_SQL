@@ -44,8 +44,8 @@ Advanced:
 **How to Use** <br> 
 Clone the Repository:
 Copy code
-git clone https: https://github.com/Anik032/Pizza-Sales-Analysis_SQL
-Load Data: Import the CSV files into your SQL environment.
+git clone https: https://github.com/Anik032/Pizza-Sales-Analysis_SQL<br> 
+Load Data: Import the CSV files into your SQL environment.<br> 
 Run Queries: Execute the SQL queries provided in the project to analyze the data and answer the questions.
 
 **Prerequisites** <br> 
