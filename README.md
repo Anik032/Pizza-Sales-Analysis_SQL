@@ -4,8 +4,7 @@ Welcome to the Pizza Sales Analysis project! This repository contains a comprehe
 **Project Overview**
 This project involves analyzing pizza sales data from four CSV files, answering 13 questions that range from basic to advanced levels. The data is processed and analyzed using SQL to extract meaningful insights and drive data-driven decision-making.
 
-**Files Included**
-
+**Files Included** <br>
 orders.csv: Contains information about individual pizza orders.
 pizza_types.csv: Lists different types of pizzas available.
 pizzas.csv: Includes details about pizzas, such as size and type.
