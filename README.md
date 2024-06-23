@@ -42,8 +42,7 @@ Load Data: Import the CSV files into your SQL environment.<br>
 Run Queries: Execute the SQL queries provided in the project to analyze the data and answer the questions.
 
 **Prerequisites** <br> 
-SQL database (e.g., MySQL, PostgreSQL, SQLite)
-Basic understanding of SQL
+SQL database (e.g., MySQL, PostgreSQL, SQLite) & Basic understanding of SQL
 
 **Contributions** <br> 
 Feel free to fork this repository, open issues, or submit pull requests to contribute to the project. Any contributions that improve the analysis or add new insights are welcome!
