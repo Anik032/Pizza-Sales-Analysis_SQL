@@ -1,13 +1,13 @@
 # Pizza-Sales-Analysis_SQL
 Welcome to the Pizza Sales Analysis project! This repository contains a comprehensive SQL-based analysis of pizza sales data. The project is designed to provide insights into sales performance, customer preferences, and operational efficiency using SQL queries.
 
-**Project Overview**
+**Project Overview:**
 This project involves analyzing pizza sales data from four CSV files, answering 13 questions that range from basic to advanced levels. The data is processed and analyzed using SQL to extract meaningful insights and drive data-driven decision-making.
 
 **Files Included** <br> 
-orders.csv: Contains information about individual pizza orders.
-pizza_types.csv: Lists different types of pizzas available.
-pizzas.csv: Includes details about pizzas, such as size and type.
+orders.csv: Contains information about individual pizza orders.<br> 
+pizza_types.csv: Lists different types of pizzas available.<br> 
+pizzas.csv: Includes details about pizzas, such as size and type.<br> 
 order_details.csv: Provides a breakdown of each order's details, including quantities and prices.
 
 **Data Model**
@@ -16,10 +16,10 @@ order_details.csv: Provides a breakdown of each order's details, including quant
 
 
 **Key Features** <br> 
-Data Import and Cleaning: Load and data from CSV files to prepare for analysis.
-Basic Queries: Simple SQL queries to understand the structure and basic statistics of the data.
-Intermediate Queries: More complex queries to explore trends and patterns in the sales data.
-Advanced Queries: Sophisticated queries to provide deep insights and answer challenging business questions.
+Data Import and Cleaning: Load and data from CSV files to prepare for analysis.<br> 
+Basic Queries: Simple SQL queries to understand the structure and basic statistics of the data.<br> 
+Intermediate Queries: More complex queries to explore trends and patterns in the sales data.<br> 
+Advanced Queries: Sophisticated queries to provide deep insights and answer challenging business questions.<br> 
 
 **Questions Answered** <br> 
 Basic:
