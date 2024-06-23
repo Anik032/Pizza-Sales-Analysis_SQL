@@ -14,13 +14,6 @@ order_details.csv: Provides a breakdown of each order's details, including quant
 
 ![Data Model](https://github.com/Anik032/Pizza-Sales-Analysis_SQL/assets/135404517/13192d11-5497-4657-8401-a2f6cb56295d)
 
-
-**Key Features** <br> 
-Data Import and Cleaning: Load and data from CSV files to prepare for analysis.<br> 
-Basic Queries: Simple SQL queries to understand the structure and basic statistics of the data.<br> 
-Intermediate Queries: More complex queries to explore trends and patterns in the sales data.<br> 
-Advanced Queries: Sophisticated queries to provide deep insights and answer challenging business questions.<br> 
-
 **Questions Answered** <br> 
 Basic:
 * Retrieve the total number of orders placed.<br> 
