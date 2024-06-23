@@ -2,7 +2,7 @@
 Welcome to the Pizza Sales Analysis project! This repository contains a comprehensive SQL-based analysis of pizza sales data. The project is designed to provide insights into sales performance, customer preferences, and operational efficiency using SQL queries.
 
 **Project Overview:**
-This project involves analyzing pizza sales data from four CSV files, answering 13 questions that range from basic to advanced levels. The data is processed and analyzed using SQL to extract meaningful insights and drive data-driven decision-making.
+This project involves analyzing pizza sales data from 4 CSV files, answering 13 questions that range from basic to advanced levels. The data is processed and analyzed using SQL to extract meaningful insights and drive data-driven decision-making.
 
 **Files Included** <br> 
 orders.csv: Contains information about individual pizza orders.<br> 
