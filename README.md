@@ -113,6 +113,7 @@ FROM
 GROUP BY pt.category
 ORDER BY SUM(od.quantity) DESC
 ```
+![image](https://github.com/Anik032/Pizza-Sales-Analysis_SQL/assets/135404517/c76d9f55-c872-4eb6-84e2-286b80779204)
 
 ### 7. Determine the distribution of orders by hour of the day.
 ```
