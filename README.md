@@ -31,6 +31,7 @@ SELECT
 FROM
     orders
 ```
+Total number of orders are **21,350**
 ### 2. Calculate the total revenue generated from pizza sales.
   ```
 SELECT 
