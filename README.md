@@ -55,6 +55,7 @@ FROM
         INNER JOIN
     pizzas AS p ON od.pizza_id = p.pizza_id
   ```
+Total **$817860.05** revenue generated from pizza sales
   
 ### 3. Identify the highest-priced pizza.
 ```
@@ -67,6 +68,7 @@ FROM
 ORDER BY p.price DESC
 LIMIT 1
 ```
+The Highest Priced Pizza is **The Greek Pizza** priced **$35.95**
 ### 4. Identify the most common pizza size ordered.
 ```
 SELECT 
@@ -79,6 +81,7 @@ GROUP BY p.size
 ORDER BY COUNT(p.size) DESC
 LIMIT 1
 ```
+Most Common Pizza Ordered is **L** Size
 ### 5. List the top 5 most ordered pizza types along with their quantities.
 ```
   SELECT 
@@ -94,6 +97,7 @@ GROUP BY pt.name
 ORDER BY SUM(od.quantity) DESC
 LIMIT 5
 ```
+![image](https://github.com/Anik032/Pizza-Sales-Analysis_SQL/assets/135404517/2a7e0772-4efc-4d98-a31f-018582e33a30)
 
 * Join the necessary tables to find the total quantity of each pizza category ordered.<br> 
 * Determine the distribution of orders by hour of the day.<br> 
