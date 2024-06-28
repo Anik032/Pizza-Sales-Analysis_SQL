@@ -1,4 +1,4 @@
-# Pizza-Sales-Analysis_SQL
+# Pizza-Sales-Analysis_SQL & Dashboard
 ![Screenshot (9)](https://github.com/Anik032/Pizza-Sales-Analysis_SQL/assets/135404517/f2baa3b6-89f8-4aa0-8a77-967c15f8290c)
 Welcome to the Pizza Sales Analysis project! This repository contains a comprehensive SQL-based analysis of pizza sales data. The project is designed to provide insights into sales performance, customer preferences, and operational efficiency using SQL queries.
 
@@ -8,6 +8,7 @@ Welcome to the Pizza Sales Analysis project! This repository contains a comprehe
 * [Data Summary](#data-summary)
 * [Data Model](#data-model)
 * [Queries and Insights](#queries-and-insights)
+* [Sales Dashboard](#sales-dashboard)
 * [Recommendations](#recommendations)
   
 ## Project Overview:
@@ -224,10 +225,10 @@ group by pt.category, pt.name) as a) as b
 where rn<=3
 
 ```
-	
-
-
 ![image](https://github.com/Anik032/Pizza-Sales-Analysis_SQL/assets/135404517/dee26ebc-9a5b-42d0-9431-967620688442)
+
+## Sales Dashboard
+![Pizza Sales Dashboard](https://github.com/Anik032/Pizza-Sales-Analysis_SQL/assets/135404517/1d402991-8240-45f6-9326-996005b6e11a)
 
 ## Recommendations
 Having conducted a thorough analysis of the data, I've identified some valuable insights that have the potential to enhance the business. I would like to propose the following recommendations to the business owners.
