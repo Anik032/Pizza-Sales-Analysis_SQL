@@ -24,7 +24,9 @@ This project involves analyzing pizza sales data from 4 CSV files, answering 13 
 
 ## Queries and Insights  
 
-* Retrieve the total number of orders placed.<br> 
+### 1. Retrieve the total number of orders placed.
+```xcxc
+```
 * Calculate the total revenue generated from pizza sales.<br> 
 * Identify the highest-priced pizza.<br> 
 * Identify the most common pizza size ordered.<br> 
