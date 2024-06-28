@@ -42,7 +42,8 @@ FROM
   ```
   
 ### 3. Identify the highest-priced pizza.
-```SELECT 
+```
+SELECT 
     pt.name AS highest_price_pizza, p.price
 FROM
     pizzas AS p
@@ -78,7 +79,7 @@ GROUP BY pt.name
 ORDER BY SUM(od.quantity) DESC
 LIMIT 5
 ```
-Intermediate:
+
 * Join the necessary tables to find the total quantity of each pizza category ordered.<br> 
 * Determine the distribution of orders by hour of the day.<br> 
 * Join relevant tables to find the category-wise distribution of pizzas.<br> 
