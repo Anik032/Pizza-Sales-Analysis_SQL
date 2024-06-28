@@ -124,6 +124,8 @@ FROM
 GROUP BY HOUR(order_time)
 
 ```
+![image](https://github.com/Anik032/Pizza-Sales-Analysis_SQL/assets/135404517/54615758-307a-430c-a656-a38bfc228f95)
+
 ### 8. Join relevant tables to find the category-wise distribution of pizzas.
 ```
 SELECT 
