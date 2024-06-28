@@ -37,7 +37,7 @@ The dataset contains a total of 4 tables with 48,620 records and 12 fields.
 ![Data Model](https://github.com/Anik032/Pizza-Sales-Analysis_SQL/assets/135404517/13192d11-5497-4657-8401-a2f6cb56295d)
 
 ## Queries and Insights  
-## Basic
+
 ### 1. Retrieve the total number of orders placed.
 ```
 SELECT 
@@ -97,20 +97,32 @@ GROUP BY pt.name
 ORDER BY SUM(od.quantity) DESC
 LIMIT 5
 ```
-
 ![image](https://github.com/Anik032/Pizza-Sales-Analysis_SQL/assets/135404517/44f38e73-68a3-4637-b726-afbe16b7b4a5)
 
-
-* Join the necessary tables to find the total quantity of each pizza category ordered.<br> 
-* Determine the distribution of orders by hour of the day.<br> 
-* Join relevant tables to find the category-wise distribution of pizzas.<br> 
-* Group the orders by date and calculate the average number of pizzas ordered per day.<br> 
-* Determine the top 3 most ordered pizza types based on revenue.<br> 
-  
-Advanced:
-* Calculate the percentage contribution of each pizza category to total revenue.<br> 
-* Analyze the cumulative revenue generated over time.<br> 
-* Determine the top 3 most ordered pizza types based on revenue for each pizza category.<br> 
+### 6.Join the necessary tables to find the total quantity of each pizza category ordered. 
+```
+```
+### 7. Determine the distribution of orders by hour of the day.
+```
+```
+### 8. Join relevant tables to find the category-wise distribution of pizzas.
+```
+```
+### 9. Group the orders by date and calculate the average number of pizzas ordered per day.
+```
+```
+### 10. Determine the top 3 most ordered pizza types based on revenue.
+```
+```
+### 11. Calculate the percentage contribution of each pizza category to total revenue.
+```
+```
+### 12. Analyze the cumulative revenue generated over time.
+```
+```
+### 13.Determine the top 3 most ordered pizza types based on revenue for each pizza category.
+```
+```
 
 ## Recommendations
 Having conducted a thorough analysis of the data, I've identified some valuable insights that have the potential to enhance the business. I would like to propose the following recommendations to the business owners.
