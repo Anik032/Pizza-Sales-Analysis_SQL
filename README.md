@@ -37,7 +37,7 @@ The dataset contains a total of 4 tables with 48,620 records and 12 fields.
 ![Data Model](https://github.com/Anik032/Pizza-Sales-Analysis_SQL/assets/135404517/13192d11-5497-4657-8401-a2f6cb56295d)
 
 ## Queries and Insights  
-
+### Basic
 ### 1. Retrieve the total number of orders placed.
 ```
 SELECT 
