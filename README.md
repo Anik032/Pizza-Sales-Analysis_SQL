@@ -25,13 +25,59 @@ This project involves analyzing pizza sales data from 4 CSV files, answering 13 
 ## Queries and Insights  
 
 ### 1. Retrieve the total number of orders placed.
-```xcxc
 ```
-* Calculate the total revenue generated from pizza sales.<br> 
-* Identify the highest-priced pizza.<br> 
-* Identify the most common pizza size ordered.<br> 
-* List the top 5 most ordered pizza types along with their quantities.
+SELECT 
+    COUNT(order_id) AS Total_orders
+FROM
+    orders
+```
+### 2. Calculate the total revenue generated from pizza sales.
+  ```
+SELECT 
+    ROUND(SUM(od.quantity * p.price), 2) AS total_revenue
+FROM
+    order_details AS od
+        INNER JOIN
+    pizzas AS p ON od.pizza_id = p.pizza_id
+  ```
   
+### 3. Identify the highest-priced pizza.
+```SELECT 
+    pt.name AS highest_price_pizza, p.price
+FROM
+    pizzas AS p
+        INNER JOIN
+    pizza_types AS pt ON p.pizza_type_id = pt.pizza_type_id
+ORDER BY p.price DESC
+LIMIT 1
+```
+### 4. Identify the most common pizza size ordered.
+```
+SELECT 
+    p.size AS most_common_size, COUNT(p.size) AS number_ordered
+FROM
+    order_details AS od
+        JOIN
+    pizzas AS p ON od.pizza_id = p.pizza_id
+GROUP BY p.size
+ORDER BY COUNT(p.size) DESC
+LIMIT 1
+```
+### 5. List the top 5 most ordered pizza types along with their quantities.
+```
+  SELECT 
+    pt.name AS most_ordered_pizza,
+    SUM(od.quantity) AS ordered_qty
+FROM
+    pizzas AS p
+        JOIN
+    order_details AS od ON p.pizza_id = od.pizza_id
+        JOIN
+    pizza_types AS pt ON p.pizza_type_id = pt.pizza_type_id
+GROUP BY pt.name
+ORDER BY SUM(od.quantity) DESC
+LIMIT 5
+```
 Intermediate:
 * Join the necessary tables to find the total quantity of each pizza category ordered.<br> 
 * Determine the distribution of orders by hour of the day.<br> 
