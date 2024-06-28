@@ -101,12 +101,35 @@ LIMIT 5
 
 ### 6.Join the necessary tables to find the total quantity of each pizza category ordered. 
 ```
+SELECT 
+    pt.category AS most_ordered_category,
+    SUM(od.quantity) AS ordered_qty
+FROM
+    pizzas AS p
+        JOIN
+    order_details AS od ON p.pizza_id = od.pizza_id
+        JOIN
+    pizza_types AS pt ON p.pizza_type_id = pt.pizza_type_id
+GROUP BY pt.category
+ORDER BY SUM(od.quantity) DESC
 ```
+
 ### 7. Determine the distribution of orders by hour of the day.
 ```
+SELECT 
+    HOUR(order_time), COUNT(order_id) AS number_of_orders
+FROM
+    orders
+GROUP BY HOUR(order_time)
+
 ```
 ### 8. Join relevant tables to find the category-wise distribution of pizzas.
 ```
+SELECT 
+    category, COUNT(pizza_type_id)as number_of_pizza
+FROM
+    pizza_types
+GROUP BY category
 ```
 ### 9. Group the orders by date and calculate the average number of pizzas ordered per day.
 ```
