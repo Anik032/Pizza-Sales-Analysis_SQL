@@ -163,6 +163,8 @@ GROUP BY pt.name
 ORDER BY total_rev DESC
 LIMIT 3
 ```
+![image](https://github.com/Anik032/Pizza-Sales-Analysis_SQL/assets/135404517/024adcfa-c0d8-4635-9d26-fa239c887b78)
+
 ### 11. Calculate the percentage contribution of each pizza category to total revenue.
 ```
 SELECT 
@@ -183,8 +185,9 @@ FROM
     pizza_types AS pt ON p.pizza_type_id = pt.pizza_type_id
 GROUP BY pt.category
 ORDER BY percentage_of_contribution DESC
-
 ```
+![image](https://github.com/Anik032/Pizza-Sales-Analysis_SQL/assets/135404517/b6260544-34e7-49a8-88a9-760837d5d37a)
+
 ### 12. Analyze the cumulative revenue generated over time.
 ```
 select order_date, 
@@ -201,6 +204,7 @@ FROM
     GROUP BY o.order_date
 ORDER BY o.order_date) As date_wise_revenue
 ```
+![image](https://github.com/Anik032/Pizza-Sales-Analysis_SQL/assets/135404517/c859fcf4-9fb7-4282-a2b6-6779429d64f7)
 ### 13.Determine the top 3 most ordered pizza types based on revenue for each pizza category.
 ```
 select category,name, revenue from
@@ -219,6 +223,10 @@ group by pt.category, pt.name) as a) as b
 where rn<=3
 
 ```
+	
+
+
+![image](https://github.com/Anik032/Pizza-Sales-Analysis_SQL/assets/135404517/dee26ebc-9a5b-42d0-9431-967620688442)
 
 ## Recommendations
 Having conducted a thorough analysis of the data, I've identified some valuable insights that have the potential to enhance the business. I would like to propose the following recommendations to the business owners.
