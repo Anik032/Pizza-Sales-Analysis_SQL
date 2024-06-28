@@ -1,5 +1,6 @@
 # Pizza-Sales-Analysis_SQL & Power Bi
-![Screenshot (9)](https://github.com/Anik032/Pizza-Sales-Analysis_SQL/assets/135404517/f2baa3b6-89f8-4aa0-8a77-967c15f8290c)
+![Thumbnail](https://github.com/Anik032/Pizza-Sales-Analysis_SQL/assets/135404517/a5f11003-a88d-4414-8a12-0dc407b55b7b)
+
 Welcome to the Pizza Sales Analysis project! This repository contains a comprehensive SQL-based analysis of pizza sales data. The project is designed to provide insights into sales performance, customer preferences, and operational efficiency using SQL queries.
 
 ## Table of Content
