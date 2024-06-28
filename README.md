@@ -5,15 +5,14 @@ Welcome to the Pizza Sales Analysis project! This repository contains a comprehe
 
 * [Project Overview](#project-overview)
 * [Data Summary](#data-summary)
-* [Data Model](#er-diagram)
+* [Data Model](#data-model)
 * [Queries and Insights](#queries-and-insights)
-* [Excel Dashboard](#excel-dashboard)
 * [Recommendations](#recommendations)
   
 ## Project Overview:
 This project involves analyzing pizza sales data from 4 CSV files, answering 13 questions that range from basic to advanced levels. The data is processed and analyzed using SQL to extract meaningful insights and drive data-driven decision-making.
 
-## Data Summary** <br> 
+## Data Summary
 **orders.csv:** Contains information about individual pizza orders.<br> 
 **pizza_types.csv**: Lists different types of pizzas available.<br> 
 **pizzas.csv:** Includes details about pizzas, such as size and type.<br> 
@@ -43,15 +42,13 @@ Advanced:
 * Analyze the cumulative revenue generated over time.<br> 
 * Determine the top 3 most ordered pizza types based on revenue for each pizza category.<br> 
 
-**How to Use** <br> 
-Clone the Repository:
-Copy code
-git clone https: https://github.com/Anik032/Pizza-Sales-Analysis_SQL<br> 
-Load Data: Import the CSV files into your SQL environment.<br> 
-Run Queries: Execute the SQL queries provided in the project to analyze the data and answer the questions.
+## Recommendations
+Having conducted a thorough analysis of the data, I've identified some valuable insights that have the potential to enhance the business. I would like to propose the following recommendations to the business owners.
 
-**Prerequisites** <br> 
-SQL database (e.g., MySQL, PostgreSQL, SQLite) & Basic understanding of SQL
+* Store credit or points can be applied as discounts when purchasing pizzas. Additionally, by occasionally multiplying these points on random days, sales may experience an uplift.
+* To enhance Sunday revenue, think about reducing working hours to support employee well-being while also driving pizza sales through limited-time B1G1 flash sales.
+* Let customers design custom pizzas with up to 5 toppings. The best ones chosen by the top chef can be added to the menu, and the customer who created it can name the pizza, allowing for regular menu updates based on customer choices.
+* October has the lowest revenue, likely due to its seasonal nature, with Halloween as a key factor. To leverage this, think about introducing Halloween-themed pizzas for the whole month or the week leading up to the event. If successful, this approach could extend to incorporating themed pizzas for other festivals too.
+* At the close of the year, gather feedback from customers to identify areas for improvement in the restaurant.
+* Due to the lower demand for XL and XXL-sized pizzas, consider introducing a half-and-half pizza option, allowing customers to enjoy two different pizza varieties on a single pie.
 
-**Contributions** <br> 
-Feel free to fork this repository, open issues, or submit pull requests to contribute to the project. Any contributions that improve the analysis or add new insights are welcome!
