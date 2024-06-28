@@ -13,10 +13,24 @@ Welcome to the Pizza Sales Analysis project! This repository contains a comprehe
 This project involves analyzing pizza sales data from 4 CSV files, answering 13 questions that range from basic to advanced levels. The data is processed and analyzed using SQL to extract meaningful insights and drive data-driven decision-making.
 
 ## Data Summary
-**orders.csv:** Contains information about individual pizza orders.<br> 
-**pizza_types.csv**: Lists different types of pizzas available.<br> 
-**pizzas.csv:** Includes details about pizzas, such as size and type.<br> 
-**order_details.csv:** Provides a breakdown of each order's details, including quantities and prices.
+The dataset contains a total of 4 tables with 48,620 records and 12 fields.
+
+- Order Details
+
+  The table has the order_details_id which is the primary key of the table along with the order_id, pizza_id as the foreign key of the orders and pizzas table and last, we have the quantity column of each type of pizza.
+
+- Orders
+
+  This table includes the order_id which is the primary key, and the date and time of each order.
+
+- Pizza Types
+
+  We have the pizza_type_id as the primary key, along with each pizza's name, category and ingredients.
+
+- Pizzas
+
+  The pizzas table has the pizza_id as the primary key, and the pizza_type_id as the foreign key from the pizza types table, it also includes the size and price of the pizzas.
+
 
 ## Data Model
 
