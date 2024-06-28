@@ -134,20 +134,90 @@ FROM
     pizza_types
 GROUP BY category
 ```
+![image](https://github.com/Anik032/Pizza-Sales-Analysis_SQL/assets/135404517/34190639-8afc-447f-ac0c-ec4d902f4f80)
+
 ### 9. Group the orders by date and calculate the average number of pizzas ordered per day.
 ```
+SELECT 
+    ROUND(AVG(daily_total)) as avg_number_of__ordered
+FROM
+    (SELECT 
+        o.order_date, SUM(od.quantity) AS daily_total
+    FROM
+        order_details AS od
+    INNER JOIN orders AS o ON od.order_id = o.order_id
+    GROUP BY o.order_date) AS avg_daily_order
 ```
+Average number of pizzas ordered per day is **138**
 ### 10. Determine the top 3 most ordered pizza types based on revenue.
 ```
+SELECT 
+    pt.name, ROUND(SUM(od.quantity * p.price)) AS total_rev
+FROM
+    pizzas AS p
+        INNER JOIN
+    order_details AS od ON p.pizza_id = od.pizza_id
+        INNER JOIN
+    pizza_types AS pt ON p.pizza_type_id = pt.pizza_type_id
+GROUP BY pt.name
+ORDER BY total_rev DESC
+LIMIT 3
 ```
 ### 11. Calculate the percentage contribution of each pizza category to total revenue.
 ```
+SELECT 
+    pt.category,
+    (CONCAT((ROUND(((SUM(od.quantity * p.price)) * 100) / (SELECT 
+                            SUM(od.quantity * p.price)
+                        FROM
+                            pizzas AS p
+                                INNER JOIN
+                            order_details AS od ON p.pizza_id = od.pizza_id),
+                    2)),
+            '%')) AS percentage_of_contribution
+FROM
+    pizzas AS p
+        INNER JOIN
+    order_details AS od ON p.pizza_id = od.pizza_id
+        INNER JOIN
+    pizza_types AS pt ON p.pizza_type_id = pt.pizza_type_id
+GROUP BY pt.category
+ORDER BY percentage_of_contribution DESC
+
 ```
 ### 12. Analyze the cumulative revenue generated over time.
 ```
+select order_date, 
+sum(revenue) Over (order by order_date) as commulative_revenue
+from
+(SELECT 
+    o.order_date, round(SUM(od.quantity * p.price),0)as revenue
+FROM
+    order_details AS od
+        INNER JOIN
+    orders AS o ON od.order_id = o.order_id
+        INNER JOIN
+    pizzas AS p ON od.pizza_id = p.pizza_id
+    GROUP BY o.order_date
+ORDER BY o.order_date) As date_wise_revenue
 ```
 ### 13.Determine the top 3 most ordered pizza types based on revenue for each pizza category.
 ```
+select category,name, revenue from
+(select category, name, revenue,
+rank() over(partition by category order by revenue desc) as rn
+from
+(select pt.category,pt.name, round(sum(od.quantity*p.price),2)as revenue
+FROM
+    pizzas AS p
+        INNER JOIN
+    order_details AS od ON p.pizza_id = od.pizza_id
+        INNER JOIN
+    pizza_types AS pt ON p.pizza_type_id = pt.pizza_type_id
+group by pt.category, pt.name) as a) as b
+
+where rn<=3
+
 ```
 
 ## Recommendations
