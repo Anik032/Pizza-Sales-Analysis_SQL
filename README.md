@@ -1,21 +1,30 @@
 # Pizza-Sales-Analysis_SQL
 Welcome to the Pizza Sales Analysis project! This repository contains a comprehensive SQL-based analysis of pizza sales data. The project is designed to provide insights into sales performance, customer preferences, and operational efficiency using SQL queries.
 
-**Project Overview:**
+## Table of Content
+
+* [Project Overview](#project-overview)
+* [Data Summary](#data-summary)
+* [Data Model](#er-diagram)
+* [Queries and Insights](#queries-and-insights)
+* [Excel Dashboard](#excel-dashboard)
+* [Recommendations](#recommendations)
+  
+## Project Overview:
 This project involves analyzing pizza sales data from 4 CSV files, answering 13 questions that range from basic to advanced levels. The data is processed and analyzed using SQL to extract meaningful insights and drive data-driven decision-making.
 
-**Files Included** <br> 
-orders.csv: Contains information about individual pizza orders.<br> 
-pizza_types.csv: Lists different types of pizzas available.<br> 
-pizzas.csv: Includes details about pizzas, such as size and type.<br> 
-order_details.csv: Provides a breakdown of each order's details, including quantities and prices.
+## Data Summary** <br> 
+**orders.csv:** Contains information about individual pizza orders.<br> 
+**pizza_types.csv**: Lists different types of pizzas available.<br> 
+**pizzas.csv:** Includes details about pizzas, such as size and type.<br> 
+**order_details.csv:** Provides a breakdown of each order's details, including quantities and prices.
 
-**Data Model**
+## Data Model
 
 ![Data Model](https://github.com/Anik032/Pizza-Sales-Analysis_SQL/assets/135404517/13192d11-5497-4657-8401-a2f6cb56295d)
 
-**Questions Answered** <br> 
-Basic:
+## Queries and Insights  
+
 * Retrieve the total number of orders placed.<br> 
 * Calculate the total revenue generated from pizza sales.<br> 
 * Identify the highest-priced pizza.<br> 
